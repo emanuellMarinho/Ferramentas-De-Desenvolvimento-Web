@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media-query.css">
+    <title>Meu Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meu Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- <img src="./assets/img/perfil.jpg" alt="Imagem do usuário" id="perfil">
+            <br> -->
+            <section id="sobre">
+                <h2>Sobre Mim</h2>
+                <p>Sou graduando em Análise e Desenvolvimento de Sistemas pela Uninter.
+                    Tenho interesse em desenvolvimento web em sua totalidade,
+                    Java, Spring, JavaScript, HTML5/CSS3 e SQL, além de Arquitetura de Software.
+                    Acredito que para desenvolver um software com êxito
+                    é necessário mais do que conhecimento técnico em sua essência.
+                    É importante conhecer a regra de negócio.</p>
+            </section>
+
+            <section id="formacao">
+                <h2>Formação</h2>
+                <ul>
+                    <li><strong>2022-2025:</strong> Uninter - Desenvolvimento de Sistemas.</li>
+                    <br>
+                    <li><strong>2022:</strong> Senac - Programação de Sistemas/Desenvolvimento de Sistemas da Informação; Implementação de Banco de Dados; Realização de Testes e Manutenção de Sistemas de Informação.</li>
+                </ul>
+            </section>
+
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <div class="grid-container">
+                    <div class="item-portfolio">
+                        <h3>Salário hora</h3>
+                        <img src="./assets/img/projeto.png" alt="Descrição da imagem">
+                        <p>Este projeto visa simplificar o cálculo mensal do salário de forma objetiva. Ele permite a modificação do valor da hora de trabalho e é acessível em qualquer dispositivo. O propósito deste projeto é oferecer praticidade no cotidiano.</p>
+                        <a href="https://github.com/emanuellMarinho/calcula-salario">Link para o projeto</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contato">
+                <h2>Contato</h2>
+                <form action="mailto:joaoemanuelribeiromarinho@gmail.com" method="post" enctype="text/plain">
+                    <label for="email">Endereço de E-mail:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="assunto">Assunto:</label><br>
+                    <input type="text" id="assunto" name="assunto" required><br><br>
+                    <label for="conteudo">Conteúdo:</label><br>
+                    <textarea id="conteudo" name="conteudo" rows="4" cols="50" required></textarea><br><br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- <footer>
+        <div class="container">
+            <p>&copy; 2024 Emanuel</p>
+        </div>
+    </footer> -->
+</body>
+</html>

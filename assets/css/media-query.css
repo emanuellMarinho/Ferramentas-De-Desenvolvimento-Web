@@ -1,0 +1,27 @@
+/* Media Queries */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Adjustments for screens between 768px and 1024px */
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav ul {
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Adjustments for screens larger than 1024px */
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+    /* Adjustments for screens up to 1920x1080 */
+    body {
+        font-size: 16px; /* Exemplo de ajuste de tamanho de fonte */
+    }
+
+    /* Outros ajustes de layout conforme necessário */
+}

@@ -1,0 +1,132 @@
+/* Reset */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    /* Adicionando uma cor de fundo geral */
+}
+
+/* Header */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container #perfil {
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do seu contêiner */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.item-portfolio {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.item-portfolio img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+/* footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* Formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-left: 0px; /* Alinha o formulário à esquerda */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; /* Adiciona a largura do padding e da borda ao cálculo da largura total */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    width: calc(100% - 20px); /* A largura total menos a margem esquerda do formulário */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* Garante que o padding e a borda não aumentem o tamanho do elemento */
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
